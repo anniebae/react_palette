@@ -16,16 +16,22 @@ class Home extends Component {
 					</Link>
 
 					<Link to="/about">
-					<div className="content-subj tab-about">
-						<p className="title">About</p>
-					</div>
+						<div className="content-subj tab-about">
+							<p className="title">About</p>
+						</div>
 					</Link>
-					<div className="content-subj tab-work">
-						<p className="title">Work</p>
-					</div>
-					<div className="content-subj tab-contact">
-						<p className="title">Contact</p>
-					</div>
+
+					<Link to="/work">
+						<div className="content-subj tab-work">
+							<p className="title">Work</p>
+						</div>
+					</Link>
+
+					<Link to="/contact">
+						<div className="content-subj tab-contact">
+							<p className="title">Contact</p>
+						</div>
+					</Link>
 				</div>
 
 			</div>

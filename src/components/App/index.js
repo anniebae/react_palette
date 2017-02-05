@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom'
 import { Router, Route, IndexRoute, IndexLink, Link, hashHistory } from 'react-router'
 import Home from '../../components/Home'
 import About from '../../components/About'
+import Work from '../../components/Work'
+import Contact from '../../components/Contact'
 
 import css from './styles.css'
 
@@ -28,6 +30,8 @@ ReactDOM.render(
 		<Route path="/" component={App}>
 			<IndexRoute component={Home} />
 			<Route path="about" component={About} />
+			<Route path="work" component={Work} />
+			<Route path="contact" component={Contact} />
 		</Route>
 	</Router>,
 	appContainer
