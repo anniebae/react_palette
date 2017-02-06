@@ -64,4 +64,21 @@ html, body {
 			}
 		}
 	}
+
+	.fixed-left {
+		background: #520303;
+	    position: fixed;
+	    height: 100%;
+	    width: 300px;
+
+	    p {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			text-align: center;
+			color: #fff;
+			font-size: -webkit-xxx-large;
+	    }
+	}
 }

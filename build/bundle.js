@@ -12645,6 +12645,10 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _styles = __webpack_require__(250);
+
+var _styles2 = _interopRequireDefault(_styles);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -12667,8 +12671,16 @@ var About = function (_Component) {
 		value: function render() {
 			return _react2.default.createElement(
 				'div',
-				null,
-				'About page'
+				{ className: 'aboutWrapper' },
+				_react2.default.createElement(
+					'div',
+					{ className: 'fixed-left' },
+					_react2.default.createElement(
+						'p',
+						null,
+						'a b o u t'
+					)
+				)
 			);
 		}
 	}]);
@@ -12806,6 +12818,10 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _styles = __webpack_require__(252);
+
+var _styles2 = _interopRequireDefault(_styles);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -12828,8 +12844,16 @@ var Work = function (_Component) {
 		value: function render() {
 			return _react2.default.createElement(
 				'div',
-				null,
-				'Work unit'
+				{ className: 'workWrapper' },
+				_react2.default.createElement(
+					'div',
+					{ className: 'fixed-left' },
+					_react2.default.createElement(
+						'p',
+						null,
+						'w o r k'
+					)
+				)
 			);
 		}
 	}]);
@@ -12884,7 +12908,7 @@ exports = module.exports = __webpack_require__(76)();
 
 
 // module
-exports.push([module.i, "html, body {\n  margin: 0;\n  font-family: Helvetica, Arial;\n  font-weight: 100; }\n  html .home-page .content-wrapper, body .home-page .content-wrapper {\n    height: 500px;\n    font-family: Helvetica, Arial;\n    font-weight: 100;\n    letter-spacing: 1.5px;\n    text-align: center;\n    padding: 9% 0; }\n    html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n      display: inline-block;\n      width: 100px;\n      color: #fff;\n      height: 100%;\n      text-align: left;\n      margin: 0 0.5%; }\n      html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n        padding: 0 15px; }\n    html .home-page .content-wrapper .tab-home, body .home-page .content-wrapper .tab-home {\n      background: #c3c30e;\n      border: 5px solid #c3c30e; }\n      html .home-page .content-wrapper .tab-home:hover, body .home-page .content-wrapper .tab-home:hover {\n        background: #fff;\n        border: 5px solid #c3c30e;\n        color: #000; }\n    html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {\n      background: #e7baa0;\n      border: 5px solid #e7baa0; }\n      html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {\n        background: #fff;\n        border: 5px solid #e7baa0;\n        color: #000; }\n    html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {\n      background: #94b3b6;\n      border: 5px solid #94b3b6; }\n      html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {\n        background: #fff;\n        border: 5px solid #94b3b6;\n        color: #000; }\n    html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {\n      background: #520303;\n      border: 5px solid #520303; }\n      html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {\n        background: #fff;\n        border: 5px solid #520303;\n        color: #000; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
+exports.push([module.i, "html, body {\n  margin: 0;\n  font-family: Helvetica, Arial;\n  font-weight: 100; }\n  html .home-page .content-wrapper, body .home-page .content-wrapper {\n    height: 500px;\n    font-family: Helvetica, Arial;\n    font-weight: 100;\n    letter-spacing: 1.5px;\n    text-align: center;\n    padding: 9% 0; }\n    html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n      display: inline-block;\n      width: 100px;\n      color: #fff;\n      height: 100%;\n      text-align: left;\n      margin: 0 0.5%; }\n      html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n        padding: 0 15px; }\n    html .home-page .content-wrapper .tab-home, body .home-page .content-wrapper .tab-home {\n      background: #c3c30e;\n      border: 5px solid #c3c30e; }\n      html .home-page .content-wrapper .tab-home:hover, body .home-page .content-wrapper .tab-home:hover {\n        background: #fff;\n        border: 5px solid #c3c30e;\n        color: #000; }\n    html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {\n      background: #e7baa0;\n      border: 5px solid #e7baa0; }\n      html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {\n        background: #fff;\n        border: 5px solid #e7baa0;\n        color: #000; }\n    html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {\n      background: #94b3b6;\n      border: 5px solid #94b3b6; }\n      html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {\n        background: #fff;\n        border: 5px solid #94b3b6;\n        color: #000; }\n    html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {\n      background: #520303;\n      border: 5px solid #520303; }\n      html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {\n        background: #fff;\n        border: 5px solid #520303;\n        color: #000; }\n  html .fixed-left, body .fixed-left {\n    background: #520303;\n    position: fixed;\n    height: 100%;\n    width: 300px; }\n    html .fixed-left p, body .fixed-left p {\n      position: absolute;\n      bottom: 0;\n      left: 0;\n      right: 0;\n      text-align: center;\n      color: #fff;\n      font-size: -webkit-xxx-large; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
 
 // exports
 
@@ -27604,6 +27628,10 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _styles = __webpack_require__(254);
+
+var _styles2 = _interopRequireDefault(_styles);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27626,8 +27654,16 @@ var Contact = function (_Component) {
 		value: function render() {
 			return _react2.default.createElement(
 				'div',
-				null,
-				'Contact'
+				{ className: 'contactWrapper' },
+				_react2.default.createElement(
+					'div',
+					{ className: 'fixed-left' },
+					_react2.default.createElement(
+						'p',
+						null,
+						'c o n t a c t'
+					)
+				)
 			);
 		}
 	}]);
@@ -27636,6 +27672,126 @@ var Contact = function (_Component) {
 }(_react.Component);
 
 exports.default = Contact;
+
+/***/ }),
+/* 249 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(76)();
+// imports
+
+
+// module
+exports.push([module.i, ".aboutWrapper .fixed-left {\n  background: #e7baa0; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 250 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(249);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(116)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!./../../../node_modules/css-loader/index.js!./styles.css", function() {
+			var newContent = require("!!./../../../node_modules/css-loader/index.js!./styles.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 251 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(76)();
+// imports
+
+
+// module
+exports.push([module.i, ".workWrapper .fixed-left {\n  background: #94b3b6;\n  position: fixed;\n  height: 100%;\n  width: 300px; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 252 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(251);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(116)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!./../../../node_modules/css-loader/index.js!./styles.css", function() {
+			var newContent = require("!!./../../../node_modules/css-loader/index.js!./styles.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 253 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(76)();
+// imports
+
+
+// module
+exports.push([module.i, ".contactWrapper .fixed-left {\n  background: #520303; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 254 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(253);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(116)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!./../../../node_modules/css-loader/index.js!./styles.css", function() {
+			var newContent = require("!!./../../../node_modules/css-loader/index.js!./styles.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
 
 /***/ })
 /******/ ]);
