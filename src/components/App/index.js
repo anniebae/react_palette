@@ -8,12 +8,17 @@ import Contact from '../../components/Contact'
 
 import css from './styles.css'
 
+import img from '../../img/annie.png'
+
 class App extends Component {
 	render() {
 		return (
 			<div className="appWrapper">
-
-				<Link to="/">Annie</Link>
+				<div className="icon">
+					<Link to="/">
+						<img className="images" src={img} />
+					</Link>
+				</div>
 				
 				<div className="content">
 					{this.props.children}

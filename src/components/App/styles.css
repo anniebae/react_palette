@@ -2,6 +2,14 @@ html, body {
   margin: 0;
   font-family: Helvetica, Arial;
   font-weight: 100; }
+  html .appWrapper .icon, body .appWrapper .icon {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    left: 0;
+    right: 0; }
+    html .appWrapper .icon .images, body .appWrapper .icon .images {
+      width: 100px; }
   html .home-page .content-wrapper, body .home-page .content-wrapper {
     height: 500px;
     font-family: Helvetica, Arial;
