@@ -28,26 +28,26 @@ html, body {
       margin: 0 0.5%; }
       html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {
         padding: 0 15px; }
-    html .home-page .content-wrapper .tab-home, body .home-page .content-wrapper .tab-home {
-      background: #c3c30e;
-      border: 5px solid #c3c30e; }
-      html .home-page .content-wrapper .tab-home:hover, body .home-page .content-wrapper .tab-home:hover {
-        background: #fff;
-        border: 5px solid #c3c30e;
-        color: #000; }
     html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {
+      background: #d5c6b0;
+      border: 5px solid #d5c6b0; }
+      html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {
+        background: #fff;
+        border: 5px solid #d5c6b0;
+        color: #000; }
+    html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {
       background: #e7baa0;
       border: 5px solid #e7baa0; }
-      html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {
+      html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {
         background: #fff;
         border: 5px solid #e7baa0;
         color: #000; }
-    html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {
-      background: #94b3b6;
-      border: 5px solid #94b3b6; }
-      html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {
+    html .home-page .content-wrapper .tab-runs, body .home-page .content-wrapper .tab-runs {
+      background: #96443a;
+      border: 5px solid #96443a; }
+      html .home-page .content-wrapper .tab-runs:hover, body .home-page .content-wrapper .tab-runs:hover {
         background: #fff;
-        border: 5px solid #94b3b6;
+        border: 5px solid #96443a;
         color: #000; }
     html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {
       background: #520303;

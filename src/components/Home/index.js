@@ -9,12 +9,6 @@ class Home extends Component {
 			<div className="home-page">
 
 				<div className="content-wrapper">
-					<Link to="/">
-						<div className="content-subj tab-home">
-							<p className="title">Home</p>
-						</div>
-					</Link>
-
 					<Link to="/about">
 						<div className="content-subj tab-about">
 							<p className="title">About</p>
@@ -24,6 +18,12 @@ class Home extends Component {
 					<Link to="/work">
 						<div className="content-subj tab-work">
 							<p className="title">Work</p>
+						</div>
+					</Link>
+
+					<Link to="/runs">
+						<div className="content-subj tab-runs">
+							<p className="title">Runs</p>
 						</div>
 					</Link>
 

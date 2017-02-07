@@ -12803,19 +12803,6 @@ var Home = function (_Component) {
 					{ className: 'content-wrapper' },
 					_react2.default.createElement(
 						_reactRouter.Link,
-						{ to: '/' },
-						_react2.default.createElement(
-							'div',
-							{ className: 'content-subj tab-home' },
-							_react2.default.createElement(
-								'p',
-								{ className: 'title' },
-								'Home'
-							)
-						)
-					),
-					_react2.default.createElement(
-						_reactRouter.Link,
 						{ to: '/about' },
 						_react2.default.createElement(
 							'div',
@@ -12837,6 +12824,19 @@ var Home = function (_Component) {
 								'p',
 								{ className: 'title' },
 								'Work'
+							)
+						)
+					),
+					_react2.default.createElement(
+						_reactRouter.Link,
+						{ to: '/runs' },
+						_react2.default.createElement(
+							'div',
+							{ className: 'content-subj tab-runs' },
+							_react2.default.createElement(
+								'p',
+								{ className: 'title' },
+								'Runs'
 							)
 						)
 					),
@@ -12976,7 +12976,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, ".aboutWrapper .fixed-left {\n  background: #e7baa0; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
+exports.push([module.i, ".aboutWrapper .fixed-left {\n  background: #d5c6b0; \n}", ""]);
 
 // exports
 
@@ -12990,7 +12990,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, "html, body {\n  margin: 0;\n  font-family: Helvetica, Arial;\n  font-weight: 100; }\n  html .appWrapper .icon, body .appWrapper .icon {\n    position: absolute;\n    z-index: 1;\n    text-align: center;\n    left: 0;\n    right: 0; }\n    html .appWrapper .icon .images, body .appWrapper .icon .images {\n      border-radius: 50px;\n      width: 80px;\n      margin: 1%; }\n  html .home-page .content-wrapper, body .home-page .content-wrapper {\n    height: 500px;\n    font-family: Helvetica, Arial;\n    font-weight: 100;\n    letter-spacing: 1.5px;\n    text-align: center;\n    padding: 9% 0; }\n    html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n      display: inline-block;\n      width: 100px;\n      color: #fff;\n      height: 100%;\n      text-align: left;\n      margin: 0 0.5%; }\n      html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n        padding: 0 15px; }\n    html .home-page .content-wrapper .tab-home, body .home-page .content-wrapper .tab-home {\n      background: #c3c30e;\n      border: 5px solid #c3c30e; }\n      html .home-page .content-wrapper .tab-home:hover, body .home-page .content-wrapper .tab-home:hover {\n        background: #fff;\n        border: 5px solid #c3c30e;\n        color: #000; }\n    html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {\n      background: #e7baa0;\n      border: 5px solid #e7baa0; }\n      html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {\n        background: #fff;\n        border: 5px solid #e7baa0;\n        color: #000; }\n    html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {\n      background: #94b3b6;\n      border: 5px solid #94b3b6; }\n      html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {\n        background: #fff;\n        border: 5px solid #94b3b6;\n        color: #000; }\n    html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {\n      background: #520303;\n      border: 5px solid #520303; }\n      html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {\n        background: #fff;\n        border: 5px solid #520303;\n        color: #000; }\n  html .fixed-left, body .fixed-left {\n    background: #520303;\n    position: fixed;\n    height: 100%;\n    width: 300px; }\n    html .fixed-left p, body .fixed-left p {\n      position: absolute;\n      bottom: 0;\n      left: 0;\n      right: 0;\n      text-align: center;\n      color: #fff;\n      font-size: -webkit-xxx-large; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
+exports.push([module.i, "html, body {\n  margin: 0;\n  font-family: Helvetica, Arial;\n  font-weight: 100; }\n  html .appWrapper .icon, body .appWrapper .icon {\n    position: absolute;\n    z-index: 1;\n    text-align: center;\n    left: 0;\n    right: 0; }\n    html .appWrapper .icon .images, body .appWrapper .icon .images {\n      border-radius: 50px;\n      width: 80px;\n      margin: 1%; }\n  html .home-page .content-wrapper, body .home-page .content-wrapper {\n    height: 500px;\n    font-family: Helvetica, Arial;\n    font-weight: 100;\n    letter-spacing: 1.5px;\n    text-align: center;\n    padding: 9% 0; }\n    html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n      display: inline-block;\n      width: 100px;\n      color: #fff;\n      height: 100%;\n      text-align: left;\n      margin: 0 0.5%; }\n      html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n        padding: 0 15px; }\n    html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {\n      background: #d5c6b0;\n      border: 5px solid #d5c6b0; }\n      html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {\n        background: #fff;\n        border: 5px solid #d5c6b0;\n        color: #000; }\n    html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {\n      background: #e7baa0;\n      border: 5px solid #e7baa0; }\n      html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {\n        background: #fff;\n        border: 5px solid #e7baa0;\n        color: #000; }\n    html .home-page .content-wrapper .tab-runs, body .home-page .content-wrapper .tab-runs {\n      background: #96443a;\n      border: 5px solid #96443a; }\n      html .home-page .content-wrapper .tab-runs:hover, body .home-page .content-wrapper .tab-runs:hover {\n        background: #fff;\n        border: 5px solid #96443a;\n        color: #000; }\n    html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {\n      background: #520303;\n      border: 5px solid #520303; }\n      html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {\n        background: #fff;\n        border: 5px solid #520303;\n        color: #000; }\n  html .fixed-left, body .fixed-left {\n    background: #520303;\n    position: fixed;\n    height: 100%;\n    width: 300px; }\n    html .fixed-left p, body .fixed-left p {\n      position: absolute;\n      bottom: 0;\n      left: 0;\n      right: 0;\n      text-align: center;\n      color: #fff;\n      font-size: -webkit-xxx-large; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
 
 // exports
 
@@ -13004,7 +13004,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, ".contactWrapper .fixed-left {\n  background: #520303; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
+exports.push([module.i, ".contactWrapper .fixed-left {\n  background: #520303; \n}", ""]);
 
 // exports
 
@@ -13018,7 +13018,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, "html, body {\n  margin: 0;\n  font-family: Helvetica, Arial;\n  font-weight: 100; }\n  html .home-page .content-wrapper, body .home-page .content-wrapper {\n    height: 500px;\n    font-family: Helvetica, Arial;\n    font-weight: 100;\n    letter-spacing: 1.5px;\n    text-align: center;\n    padding: 9% 0; }\n    html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n      display: inline-block;\n      width: 100px;\n      color: #fff;\n      height: 100%;\n      text-align: left;\n      margin: 0 0.5%; }\n      html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n        padding: 0 15px; }\n    html .home-page .content-wrapper .tab-home, body .home-page .content-wrapper .tab-home {\n      background: #c3c30e;\n      border: 5px solid #c3c30e; }\n      html .home-page .content-wrapper .tab-home:hover, body .home-page .content-wrapper .tab-home:hover {\n        background: #fff;\n        border: 5px solid #c3c30e;\n        color: #000; }\n    html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {\n      background: #e7baa0;\n      border: 5px solid #e7baa0; }\n      html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {\n        background: #fff;\n        border: 5px solid #e7baa0;\n        color: #000; }\n    html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {\n      background: #94b3b6;\n      border: 5px solid #94b3b6; }\n      html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {\n        background: #fff;\n        border: 5px solid #94b3b6;\n        color: #000; }\n    html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {\n      background: #520303;\n      border: 5px solid #520303; }\n      html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {\n        background: #fff;\n        border: 5px solid #520303;\n        color: #000; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
+exports.push([module.i, "\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
 
 // exports
 
@@ -13032,7 +13032,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, ".workWrapper .fixed-left {\n  background: #94b3b6;\n  position: fixed;\n  height: 100%;\n  width: 300px; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
+exports.push([module.i, ".workWrapper .fixed-left {\n  background: #e7baa0; \n}", ""]);
 
 // exports
 
@@ -27740,6 +27740,10 @@ var _Contact = __webpack_require__(118);
 
 var _Contact2 = _interopRequireDefault(_Contact);
 
+var _Runs = __webpack_require__(256);
+
+var _Runs2 = _interopRequireDefault(_Runs);
+
 var _styles = __webpack_require__(123);
 
 var _styles2 = _interopRequireDefault(_styles);
@@ -27803,9 +27807,112 @@ _reactDom2.default.render(_react2.default.createElement(
 		_react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
 		_react2.default.createElement(_reactRouter.Route, { path: 'about', component: _About2.default }),
 		_react2.default.createElement(_reactRouter.Route, { path: 'work', component: _Work2.default }),
+		_react2.default.createElement(_reactRouter.Route, { path: 'runs', component: _Runs2.default }),
 		_react2.default.createElement(_reactRouter.Route, { path: 'contact', component: _Contact2.default })
 	)
 ), appContainer);
+
+/***/ }),
+/* 256 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(5);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _styles = __webpack_require__(258);
+
+var _styles2 = _interopRequireDefault(_styles);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Runs = function (_Component) {
+	_inherits(Runs, _Component);
+
+	function Runs() {
+		_classCallCheck(this, Runs);
+
+		return _possibleConstructorReturn(this, (Runs.__proto__ || Object.getPrototypeOf(Runs)).apply(this, arguments));
+	}
+
+	_createClass(Runs, [{
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				{ className: 'runsWrapper' },
+				_react2.default.createElement(
+					'div',
+					{ className: 'fixed-left' },
+					_react2.default.createElement(
+						'p',
+						null,
+						'r u n s'
+					)
+				)
+			);
+		}
+	}]);
+
+	return Runs;
+}(_react.Component);
+
+exports.default = Runs;
+
+/***/ }),
+/* 257 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(30)();
+// imports
+
+
+// module
+exports.push([module.i, ".runsWrapper .fixed-left {\n  background: #96443a; \n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 258 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(257);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(36)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!./../../../node_modules/css-loader/index.js!./styles.css", function() {
+			var newContent = require("!!./../../../node_modules/css-loader/index.js!./styles.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
 
 /***/ })
 /******/ ]);

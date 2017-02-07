@@ -39,17 +39,17 @@ html, body {
 				}
 			}
 
-			.tab-home {
-				background: #c3c30e;
-				border: 5px solid #c3c30e;
+			.tab-about {
+				background: #d5c6b0;
+				border: 5px solid #d5c6b0;
 
 				&:hover {
 					background: #fff;
-					border: 5px solid #c3c30e;
+					border: 5px solid #d5c6b0;
 					color: #000;
 				}
 			}
-			.tab-about {
+			.tab-work {
 				background: #e7baa0;
 				border: 5px solid #e7baa0;
 				&:hover {
@@ -58,12 +58,12 @@ html, body {
 					color: #000;
 				}
 			}
-			.tab-work {
-				background: #94b3b6;
-				border: 5px solid #94b3b6;
+			.tab-runs {
+				background: #96443a;
+				border: 5px solid #96443a;
 				&:hover {
 					background: #fff;
-					border: 5px solid #94b3b6;
+					border: 5px solid #96443a;
 					color: #000;
 				}
 			}
