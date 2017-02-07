@@ -9,8 +9,10 @@ class Runs extends Component {
 				<div className="fixed-left">
 					<p>r u n s</p>
 				</div>
-
-				<Map />
+				
+				<div className="mapContainer">
+					<Map />
+				</div>
 			</div>
 		)
 	}

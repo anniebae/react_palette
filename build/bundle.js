@@ -27869,7 +27869,11 @@ var Runs = function (_Component) {
 						'r u n s'
 					)
 				),
-				_react2.default.createElement(_Map2.default, null)
+				_react2.default.createElement(
+					'div',
+					{ className: 'mapContainer' },
+					_react2.default.createElement(_Map2.default, null)
+				)
 			);
 		}
 	}]);
@@ -27888,7 +27892,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, ".runsWrapper .fixed-left {\n  background: #96443a; \n}\n\n.mapComponent {\n\tmargin-left: 300px;\n}", ""]);
+exports.push([module.i, ".runsWrapper .fixed-left {\n  background: #96443a; \n}\n\n.mapContainer {\n\tmargin-left: 300px;\n}", ""]);
 
 // exports
 
