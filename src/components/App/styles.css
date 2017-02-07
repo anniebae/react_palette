@@ -62,7 +62,7 @@ html, body {
         color: #000; }
   html .fixed-left, body .fixed-left {
     background: #520303;
-    position: fixed;
+    position: absolute;
     height: 100%;
     width: 300px; }
     html .fixed-left p, body .fixed-left p {

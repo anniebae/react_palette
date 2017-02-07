@@ -1,3 +1,7 @@
 .runsWrapper .fixed-left {
   background: #96443a; 
 }
+
+.mapComponent {
+	margin-left: 300px;
+}
