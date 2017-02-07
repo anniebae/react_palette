@@ -21,13 +21,17 @@ html, body {
     padding: 9% 0; }
     html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {
       display: inline-block;
-      width: 100px;
+      width: 72px;
       color: #fff;
       height: 100%;
       text-align: left;
       margin: 0 0.5%; }
       html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {
-        padding: 0 15px; }
+        padding: 0 5px;
+        writing-mode: tb-rl;
+        text-orientation: upright;
+        letter-spacing: 8px;
+        margin: 9px 0; }
     html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {
       background: #d5c6b0;
       border: 5px solid #d5c6b0; }
