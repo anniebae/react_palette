@@ -3,7 +3,6 @@ html, body {
   font-family: Helvetica, Arial;
   font-weight: 100; }
   html .appWrapper .icon, body .appWrapper .icon {
-    position: absolute;
     z-index: 1;
     text-align: center;
     left: 0;
@@ -18,7 +17,7 @@ html, body {
     font-weight: 100;
     letter-spacing: 1.5px;
     text-align: center;
-    padding: 9% 0; }
+    padding: 3% 0; }
     html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {
       display: inline-block;
       width: 72px;
@@ -63,6 +62,7 @@ html, body {
   html .fixed-left, body .fixed-left {
     background: #520303;
     position: absolute;
+    top: 0;
     height: 100%;
     width: 300px; }
     html .fixed-left p, body .fixed-left p {

@@ -4,7 +4,6 @@ html, body {
 	font-weight: 100;
 	.appWrapper {
 		.icon {
-			position: absolute;
 			z-index: 1;
 			text-align: center;
 			left: 0;
@@ -24,7 +23,7 @@ html, body {
 			font-weight: 100;
 			letter-spacing: 1.5px;
 			text-align: center;
-		    padding: 9% 0;
+		    padding: 3% 0;
 			
 			.content-subj {
 				display: inline-block;
@@ -86,6 +85,7 @@ html, body {
 	.fixed-left {
 		background: #520303;
 	    position: absolute;
+	    top: 0;
 	    height: 100%;
 	    width: 300px;
 
