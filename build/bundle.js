@@ -27857,6 +27857,10 @@ var Runs = function (_Component) {
 	_createClass(Runs, [{
 		key: 'render',
 		value: function render() {
+			var location = {
+				lat: 40.311113,
+				lng: -73.9944842
+			};
 			return _react2.default.createElement(
 				'div',
 				{ className: 'runsWrapper' },
@@ -27872,7 +27876,7 @@ var Runs = function (_Component) {
 				_react2.default.createElement(
 					'div',
 					{ className: 'mapContainer' },
-					_react2.default.createElement(_Map2.default, null)
+					_react2.default.createElement(_Map2.default, { center: location })
 				)
 			);
 		}
@@ -27892,7 +27896,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, ".runsWrapper .fixed-left {\n  background: #96443a; \n}\n\n.mapContainer {\n\tmargin-left: 300px;\n}", ""]);
+exports.push([module.i, ".runsWrapper .fixed-left {\n  background: #96443a; \n}\n\n.mapContainer {\n\tmargin-left: 300px;\n\twidth: 300px;\n\theight: 600px;\n\tbackground-color: #8b96a9;\n}", ""]);
 
 // exports
 
@@ -28545,11 +28549,16 @@ var Map = function (_Component) {
 	_createClass(Map, [{
 		key: 'render',
 		value: function render() {
-			return _react2.default.createElement(
-				'div',
-				{ className: 'mapComponent' },
-				'Map goes here'
-			);
+			var mapContainer = _react2.default.createElement('div', { style: { height: '100%', width: '100%' } });
+
+			return _react2.default.createElement(_reactGoogleMaps.GoogleMapLoader, {
+				containerElement: mapContainer,
+				googleMapElement: _react2.default.createElement(_reactGoogleMaps.GoogleMap, {
+					defaultZoom: 15,
+					defaultCenter: this.props.center,
+					options: { streetViewControl: false, mapTypeControl: false } })
+
+			});
 		}
 	}]);
 

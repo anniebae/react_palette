@@ -4,6 +4,10 @@ import Map from './Map.js'
 
 class Runs extends Component {
 	render() {
+		const location = {
+			lat: 40.311113,
+			lng: -73.9944842
+		}
 		return(
 			<div className="runsWrapper">
 				<div className="fixed-left">
@@ -11,7 +15,7 @@ class Runs extends Component {
 				</div>
 				
 				<div className="mapContainer">
-					<Map />
+					<Map center={location} />
 				</div>
 			</div>
 		)
