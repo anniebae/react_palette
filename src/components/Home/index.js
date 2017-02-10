@@ -7,6 +7,9 @@ class Home extends Component {
 	render() {
 		return (
 			<div className="home-page">
+				<div className="title">
+					anniebae.
+				</div>
 
 				<div className="content-wrapper">
 					<Link to="/about">
@@ -21,11 +24,6 @@ class Home extends Component {
 						</div>
 					</Link>
 
-					<Link to="/runs">
-						<div className="content-subj tab-runs">
-							<p className="title">Runs</p>
-						</div>
-					</Link>
 
 					<Link to="/contact">
 						<div className="content-subj tab-contact">

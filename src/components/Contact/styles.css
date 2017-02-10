@@ -1,3 +1,12 @@
 .contactWrapper .fixed-left {
   background: #520303; 
 }
+
+.contact-content {
+	height: 300px;
+	width: 58%;
+	background-color: #ccc;
+    padding-left: 300px;
+    margin: 0 auto;
+    height: 230px;
+}

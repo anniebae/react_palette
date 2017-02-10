@@ -4,16 +4,20 @@ html, body {
   font-weight: 100; }
   html .appWrapper .icon, body .appWrapper .icon {
     z-index: 1;
-    text-align: center;
+    text-align: right;
+    top: 0;
     left: 0;
-    right: 0; }
+    right: 0;
+    position: absolute; }
     html .appWrapper .icon .images, body .appWrapper .icon .images {
       border-radius: 50px;
       width: 80px;
-      margin: 1%; }
+      margin: 1.5%; }
+  html .home-page .title, body .home-page .title {
+    text-align: center;
+    padding-top: 3%; }
   html .home-page .content-wrapper, body .home-page .content-wrapper {
     height: 500px;
-    font-family: Helvetica, Arial;
     font-weight: 100;
     letter-spacing: 1.5px;
     text-align: center;
@@ -26,6 +30,7 @@ html, body {
       text-align: left;
       margin: 0 0.5%; }
       html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {
+        font-family: Helvetica, Arial;
         padding: 0 5px;
         writing-mode: tb-rl;
         text-orientation: upright;

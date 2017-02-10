@@ -5,7 +5,6 @@ import Home from '../../components/Home'
 import About from '../../components/About'
 import Work from '../../components/Work'
 import Contact from '../../components/Contact'
-import Runs from '../../components/Runs'
 
 import css from './styles.css'
 
@@ -37,7 +36,6 @@ ReactDOM.render(
 			<IndexRoute component={Home} />
 			<Route path="about" component={About} />
 			<Route path="work" component={Work} />
-			<Route path="runs" component={Runs} />
 			<Route path="contact" component={Contact} />
 		</Route>
 	</Router>,
