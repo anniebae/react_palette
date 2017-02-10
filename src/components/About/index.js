@@ -17,8 +17,8 @@ class About extends Component {
 							<p>I 🏃 4 half marathons, 1 Ragnar Relay, and don't plan on stopping any time soon.</p>
 							<p>In my free ⏰, I like to explore cool new ways to 🔨 sites & apps, take 📸, and drink an unruly amount of ☕️.</p>
 							<p>Most importantly, I'm on a mission to make my 🐱 #instafamous so go give <a href="https://www.instagram.com/sunnystillsleeping/" target="_blank">Sunny</a> a follow️.
-							<br/>
 							</p>
+							<br/>
 							<p>Cheers, 👧</p>
 						</div>
 					</div>

@@ -12719,9 +12719,9 @@ var About = function (_Component) {
 									{ href: 'https://www.instagram.com/sunnystillsleeping/', target: '_blank' },
 									'Sunny'
 								),
-								' a follow\uFE0F.',
-								_react2.default.createElement('br', null)
+								' a follow\uFE0F.'
 							),
+							_react2.default.createElement('br', null),
 							_react2.default.createElement(
 								'p',
 								null,
