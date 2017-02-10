@@ -26,8 +26,13 @@ class Contact extends Component {
 				</div>
 				
 				<div className="contact-content">
+					<div className="email">
+						<a href='mailto:bae.annie@gmail.com'>say hello</a>
+					</div>
 					<Map center={location} markers={markers} />
+					
 				</div>
+
 			</div>
 		)
 	}

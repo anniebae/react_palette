@@ -13,57 +13,58 @@ html, body {
       border-radius: 50px;
       width: 80px;
       margin: 1.5%; }
-  html .home-page .title, body .home-page .title {
-    text-align: center;
-    padding-top: 3%; }
-  html .home-page .content-wrapper, body .home-page .content-wrapper {
-    height: 500px;
-    font-weight: 100;
-    letter-spacing: 1.5px;
-    text-align: center;
-    padding: 3% 0; }
-    html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {
-      display: inline-block;
-      width: 72px;
-      color: #fff;
-      height: 100%;
-      text-align: left;
-      margin: 0 0.5%; }
-      html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {
-        font-family: Helvetica, Arial;
-        padding: 0 5px;
-        writing-mode: tb-rl;
-        text-orientation: upright;
-        letter-spacing: 8px;
-        margin: 9px 0; }
-    html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {
-      background: #d5c6b0;
-      border: 5px solid #d5c6b0; }
-      html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {
-        background: #fff;
-        border: 5px solid #d5c6b0;
-        color: #000; }
-    html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {
-      background: #e7baa0;
-      border: 5px solid #e7baa0; }
-      html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {
-        background: #fff;
-        border: 5px solid #e7baa0;
-        color: #000; }
-    html .home-page .content-wrapper .tab-runs, body .home-page .content-wrapper .tab-runs {
-      background: #96443a;
-      border: 5px solid #96443a; }
-      html .home-page .content-wrapper .tab-runs:hover, body .home-page .content-wrapper .tab-runs:hover {
-        background: #fff;
-        border: 5px solid #96443a;
-        color: #000; }
-    html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {
-      background: #520303;
-      border: 5px solid #520303; }
-      html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {
-        background: #fff;
-        border: 5px solid #520303;
-        color: #000; }
+  html .home-page, body .home-page {
+    padding: 10% 0; }
+    html .home-page .title, body .home-page .title {
+      text-align: center;
+      padding-top: 3%; }
+    html .home-page .content-wrapper, body .home-page .content-wrapper {
+      font-weight: 100;
+      letter-spacing: 1.5px;
+      text-align: center;
+      padding: 3% 0; }
+      html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {
+        display: inline-block;
+        width: 68px;
+        color: #fff;
+        height: 100%;
+        text-align: left;
+        margin: 0 0.5%; }
+        html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {
+          font-family: Helvetica, Arial;
+          padding: 0 5px;
+          writing-mode: tb-rl;
+          text-orientation: upright;
+          letter-spacing: 8px;
+          margin: 9px 0; }
+      html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {
+        background: #d5c6b0;
+        border: 5px solid #d5c6b0; }
+        html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {
+          background: #fff;
+          border: 5px solid #d5c6b0;
+          color: #000; }
+      html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {
+        background: #e7baa0;
+        border: 5px solid #e7baa0; }
+        html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {
+          background: #fff;
+          border: 5px solid #e7baa0;
+          color: #000; }
+      html .home-page .content-wrapper .tab-runs, body .home-page .content-wrapper .tab-runs {
+        background: #96443a;
+        border: 5px solid #96443a; }
+        html .home-page .content-wrapper .tab-runs:hover, body .home-page .content-wrapper .tab-runs:hover {
+          background: #fff;
+          border: 5px solid #96443a;
+          color: #000; }
+      html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {
+        background: #520303;
+        border: 5px solid #520303; }
+        html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {
+          background: #fff;
+          border: 5px solid #520303;
+          color: #000; }
   html .fixed-left, body .fixed-left {
     background: #520303;
     position: absolute;

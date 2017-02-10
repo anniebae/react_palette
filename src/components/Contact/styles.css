@@ -2,10 +2,28 @@
   background: #520303; 
 }
 
+.email {
+    padding: 30% 0 15% 0;
+    text-align: center;
+}
+
+.email a {
+	padding: 2% 10%;
+	border: 3px solid #520303;
+	color: #520303;
+	text-decoration: none;
+}
+
+.email a:hover {
+	background: #520303;
+	border: 3px solid #fff;
+	color: #fff;
+}
+
 .contact-content {
 	height: 300px;
 	width: 58%;
-	background-color: #ccc;
+	// background-color: #ccc;
     padding-left: 300px;
     margin: 0 auto;
     height: 230px;
