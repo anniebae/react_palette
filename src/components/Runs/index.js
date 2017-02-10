@@ -3,7 +3,6 @@ import css from './styles.css'
 import Map from './Map.js'
 
 import Foundation from 'react-foundation'
-// import foundation from '../../../css/foundation.min.css'
 
 class Runs extends Component {
 	render() {
@@ -15,6 +14,18 @@ class Runs extends Component {
 			lat: 40.9867151,
 			lng: -74.0472871
 		}
+		const run3 = {
+			lat: 33.4508378,
+			lng: -112.0859534
+		}
+		const run4 = {
+			lat: 40.7828687,
+			lng: -73.9675438
+		}
+		const run5 = {
+			lat: 44.2843894,
+			lng: -74.0037255
+		}
 		return(
 			<div className="runsWrapper">
 				<div className="fixed-left">
@@ -23,12 +34,11 @@ class Runs extends Component {
 				
 				<div className="mapContainer">
 					
-					<Map center={run1} />
+					<Map center={run5} />
 
-					<div className="row">
-						<div className="large-6 columns"><Map center={run1} /></div>
-						<div className="large-6 columns"><Map center={run2} /></div>
-					</div>
+					
+
+					
 				</div>
 
 

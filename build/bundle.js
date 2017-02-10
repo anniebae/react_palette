@@ -27849,8 +27849,6 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-// import foundation from '../../../css/foundation.min.css'
-
 var Runs = function (_Component) {
 	_inherits(Runs, _Component);
 
@@ -27871,6 +27869,18 @@ var Runs = function (_Component) {
 				lat: 40.9867151,
 				lng: -74.0472871
 			};
+			var run3 = {
+				lat: 33.4508378,
+				lng: -112.0859534
+			};
+			var run4 = {
+				lat: 40.7828687,
+				lng: -73.9675438
+			};
+			var run5 = {
+				lat: 44.2843894,
+				lng: -74.0037255
+			};
 			return _react2.default.createElement(
 				'div',
 				{ className: 'runsWrapper' },
@@ -27886,21 +27896,7 @@ var Runs = function (_Component) {
 				_react2.default.createElement(
 					'div',
 					{ className: 'mapContainer' },
-					_react2.default.createElement(_Map2.default, { center: run1 }),
-					_react2.default.createElement(
-						'div',
-						{ className: 'row' },
-						_react2.default.createElement(
-							'div',
-							{ className: 'large-6 columns' },
-							_react2.default.createElement(_Map2.default, { center: run1 })
-						),
-						_react2.default.createElement(
-							'div',
-							{ className: 'large-6 columns' },
-							_react2.default.createElement(_Map2.default, { center: run2 })
-						)
-					)
+					_react2.default.createElement(_Map2.default, { center: run5 })
 				)
 			);
 		}
