@@ -12680,6 +12680,55 @@ var About = function (_Component) {
 						null,
 						'a b o u t'
 					)
+				),
+				_react2.default.createElement(
+					'div',
+					{ className: 'about-content' },
+					_react2.default.createElement(
+						'div',
+						{ className: 'intro' },
+						_react2.default.createElement(
+							'div',
+							{ className: 'body' },
+							_react2.default.createElement(
+								'p',
+								null,
+								'\uD83D\uDC4B, I\'m Annie - '
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'a New York City based web developer currently \uD83D\uDCBB at Wire Stone.'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'I \uD83C\uDFC3 4 half marathons, 1 Ragnar Relay, and don\'t plan on stopping any time soon.'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'In my free \u23F0, I like to explore cool new ways to \uD83D\uDD28 sites & apps, take \uD83D\uDCF8, and drink an unruly amount of \u2615\uFE0F.'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'Most importantly, I\'m on a mission to make my \uD83D\uDC31 #instafamous so go give ',
+								_react2.default.createElement(
+									'a',
+									{ href: 'https://www.instagram.com/sunnystillsleeping/', target: '_blank' },
+									'Sunny'
+								),
+								' a follow\uFE0F.',
+								_react2.default.createElement('br', null)
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'Cheers, \uD83D\uDC67'
+							)
+						)
+					)
 				)
 			);
 		}
@@ -12998,7 +13047,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, ".aboutWrapper .fixed-left {\n  background: #d5c6b0; \n}", ""]);
+exports.push([module.i, ".aboutWrapper .fixed-left {\n  background: #d5c6b0; \n}\n\n.about-content {\n\tbackground: url(" + __webpack_require__(335) + ");\n    background-position: center center;\n\tmargin-left: 300px;\n\theight: 100vh;\n    background-size: cover;\n}\n\n.about-content p {\n\tmargin: 0;\n}\n\n.about-content .intro {\n\tbackground-color: #fff;\n\topacity: 0.87;\n\tpadding: 2%;\n\tborder-radius: 5px;\n\tposition: absolute;\n\tmargin: 3%;\n\tfont-size: 12px;\n\twidth: 35%;\n\tbottom: 0;\n}", ""]);
 
 // exports
 
@@ -32318,6 +32367,12 @@ var Map = function (_Component) {
 }(_react.Component);
 
 exports.default = Map;
+
+/***/ }),
+/* 335 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "3d5047bc1aad0146f394d82b840047c8.jpg";
 
 /***/ })
 /******/ ]);
