@@ -30,6 +30,10 @@ html, body {
 			letter-spacing: 1.5px;
 			text-align: center;
 		    padding: 3% 0;
+
+		    @media screen and (max-width: 640px) {
+		    	overflow: hidden;
+		    }
 			
 			.content-subj {
 				display: inline-block;
@@ -39,6 +43,11 @@ html, body {
 				text-align: left;
 				margin: 0 0.5%;
 
+				@media screen and (max-width: 640px) {
+					display: block;
+					width: 100%;
+				}
+
 				.title {
 					font-family: Helvetica, Arial;
 					padding: 0 5px;
@@ -46,6 +55,12 @@ html, body {
 					text-orientation: upright;
 					letter-spacing: 8px;
 					margin: 9px 0;
+
+					@media screen and (max-width: 640px) {
+						text-orientation: initial;
+						writing-mode: horizontal-tb;
+						text-align: left;
+					}
 				}
 			}
 
