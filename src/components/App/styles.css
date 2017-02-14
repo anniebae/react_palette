@@ -12,7 +12,8 @@ html, body {
     html .appWrapper .icon .images, body .appWrapper .icon .images {
       border-radius: 50px;
       width: 80px;
-      margin: 1.5%; }
+      margin: 1.5%;
+      border: 2px solid #ff0066; }
   html .home-page, body .home-page {
     padding: 10% 0; }
     html .home-page .title, body .home-page .title {
