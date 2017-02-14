@@ -94,10 +94,19 @@ html, body {
       font-size: -webkit-xxx-large; }
 
 @media screen and (max-width: 640px) {
+  html .appWrapper .icon .images, body .appWrapper .icon .images {
+    width: 50px; }
+  html .home-page .content-wrapper, body .home-page .content-wrapper {
+    padding-top: 50px; }
+    html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {
+      height: 100px;
+      margin-bottom: 5px; }
   html .fixed-left, body .fixed-left {
-    height: 150px;
+    height: 120px;
     width: 100%;
     bottom: 0;
-    top: initial; } }
+    top: initial; }
+    html .fixed-left p, body .fixed-left p {
+      font-size: xx-large; } }
 
 /*# sourceMappingURL=styles.css.map */
