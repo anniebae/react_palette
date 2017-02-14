@@ -28,3 +28,10 @@
     margin: 0 auto;
     height: 230px;
 }
+
+@media screen and (max-width: 640px) {
+	.contact-content {
+		width: 90%;
+	    padding-left: initial;
+	}
+}

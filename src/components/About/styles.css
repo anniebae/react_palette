@@ -25,3 +25,14 @@
 	width: 35%;
 	bottom: 0;
 }
+
+@media screen and (max-width: 640px) {
+	.about-content {
+		margin-left: initial;
+	}
+
+	.about-content .intro {
+		bottom: 150px;
+		width: 90%;
+	}
+}

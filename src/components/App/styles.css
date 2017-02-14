@@ -93,4 +93,11 @@ html, body {
       color: #fff;
       font-size: -webkit-xxx-large; }
 
+@media screen and (max-width: 640px) {
+  html .fixed-left, body .fixed-left {
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+    top: initial; } }
+
 /*# sourceMappingURL=styles.css.map */

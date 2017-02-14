@@ -123,3 +123,14 @@ html, body {
 	    }
 	}
 }
+
+@media screen and (max-width: 640px) {
+	html, body {
+		.fixed-left {
+			height: 150px;
+			width: 100%;
+			bottom: 0;
+			top: initial;
+		}
+	}
+}
