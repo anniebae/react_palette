@@ -5,6 +5,7 @@ import imgGH from '../../img/icon_gh.png'
 import projPortfolio from '../../img/portfolio.png'
 import projTravelography from '../../img/travelography.png'
 import projWhereto from '../../img/whereto.png'
+import projWhiskers from '../../img/whiskers.png'
 
 class Work extends Component {
 	render() {
@@ -22,7 +23,7 @@ class Work extends Component {
 								<a href="https://github.com/anniebae/anniebae.github.io" target="_blank"><img src={imgGH} className="github-icon" alt="" />This.</a>
 							</p>
 							<img src={projPortfolio} className="project" alt=""/>
-							<p>Framework: React.js</p>
+							<p className="framework">Framework: React.js</p>
 						</div>
 
 						<div className="project-section">
@@ -30,7 +31,7 @@ class Work extends Component {
 								<a href="https://github.com/anniebae/travelography" target="_blank"><img src={imgGH} className="github-icon" alt="" />Travelography.</a>
 							</p>
 							<img src={projTravelography} className="project" alt=""/>
-							<p>Framework: Backbone.js</p>
+							<p className="framework">Framework: Backbone.js</p>
 						</div>
 
 						<div className="project-section">
@@ -38,7 +39,14 @@ class Work extends Component {
 								<a href="https://github.com/anniebae/WhereTO" target="_blank"><img src={imgGH} className="github-icon" alt="" />WhereTO.</a>
 							</p>
 							<img src={projWhereto} className="project" alt=""/>
-							
+						</div>
+
+						<div className="project-section">
+							<p className="project-name">
+								<a href="https://github.com/anniebae/games" target="_blank"><img src={imgGH} className="github-icon" alt="" />Whiskers.</a>
+							</p>
+							<img src={projWhiskers} className="project" alt=""/>
+							<p className="framework">Framework: Ruby on Rails</p>
 						</div>
 					</div>
 

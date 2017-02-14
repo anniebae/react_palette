@@ -99,6 +99,8 @@ html, body {
   html .home-page .content-wrapper, body .home-page .content-wrapper {
     padding-top: 50px; }
     html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {
+      width: 95%;
+      margin: 0 auto;
       height: 100px;
       margin-bottom: 5px; }
   html .fixed-left, body .fixed-left {
