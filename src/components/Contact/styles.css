@@ -3,7 +3,7 @@
 }
 
 .email {
-    padding: 30% 0 15% 0;
+    padding: 30% 0 3% 0;
     text-align: center;
 }
 
@@ -18,6 +18,29 @@
 	background: #520303;
 	border: 3px solid #fff;
 	color: #fff;
+}
+
+.social {
+	margin-bottom: 100px;
+}
+
+.social ul {
+	text-align: center;
+	padding: 0;
+	list-style-type: none;
+}
+
+.social ul li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.social ul li img {
+	width: 20px;
+}
+
+.social ul li img:hover {
+	opacity: 0.5;
 }
 
 .contact-content {

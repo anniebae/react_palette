@@ -3,6 +3,10 @@ import css from './styles.css'
 
 import Map from './Map.js'
 
+import imgLI from '../../img/icon_in.png'
+import imgIG from '../../img/icon_ig.png'
+import imgTW from '../../img/icon_tw.png'
+
 class Contact extends Component {
 	render() {
 		const location = {
@@ -27,7 +31,15 @@ class Contact extends Component {
 				
 				<div className="contact-content">
 					<div className="email">
-						<a href='mailto:bae.annie@gmail.com'>say hello</a>
+						<a href="mailto:bae.annie@gmail.com?subject=Hi Annie!&body=Sent from anniebae.com">say hello</a>
+					</div>
+
+					<div className="social">
+						<ul>
+							<li><a href="https://www.linkedin.com/in/anniebae/" target="_blank"><img className="images" src={imgLI} /></a></li>
+							<li><a href="https://www.instagram.com/anniebae/" target="_blank"><img className="images" src={imgIG} /></a></li>
+							<li><a href="https://twitter.com/bae_annie" target="_blank"><img className="images" src={imgTW} /></a></li>
+						</ul>
 					</div>
 					<Map center={location} markers={markers} />
 					

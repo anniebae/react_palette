@@ -12698,7 +12698,13 @@ var About = function (_Component) {
 							_react2.default.createElement(
 								'p',
 								null,
-								'a New York City based web developer currently \uD83D\uDCBB at Wire Stone.'
+								'a New York City based web developer currently \uD83D\uDCBB at ',
+								_react2.default.createElement(
+									'a',
+									{ href: 'http://wirestone.com/', target: '_blank' },
+									'Wire Stone'
+								),
+								'.'
 							),
 							_react2.default.createElement(
 								'p',
@@ -12764,6 +12770,18 @@ var _Map = __webpack_require__(334);
 
 var _Map2 = _interopRequireDefault(_Map);
 
+var _icon_in = __webpack_require__(336);
+
+var _icon_in2 = _interopRequireDefault(_icon_in);
+
+var _icon_ig = __webpack_require__(337);
+
+var _icon_ig2 = _interopRequireDefault(_icon_ig);
+
+var _icon_tw = __webpack_require__(338);
+
+var _icon_tw2 = _interopRequireDefault(_icon_tw);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -12816,8 +12834,43 @@ var Contact = function (_Component) {
 						{ className: 'email' },
 						_react2.default.createElement(
 							'a',
-							{ href: 'mailto:bae.annie@gmail.com' },
+							{ href: 'mailto:bae.annie@gmail.com?subject=Hi Annie!&body=Sent from anniebae.com' },
 							'say hello'
+						)
+					),
+					_react2.default.createElement(
+						'div',
+						{ className: 'social' },
+						_react2.default.createElement(
+							'ul',
+							null,
+							_react2.default.createElement(
+								'li',
+								null,
+								_react2.default.createElement(
+									'a',
+									{ href: 'https://www.linkedin.com/in/anniebae/', target: '_blank' },
+									_react2.default.createElement('img', { className: 'images', src: _icon_in2.default })
+								)
+							),
+							_react2.default.createElement(
+								'li',
+								null,
+								_react2.default.createElement(
+									'a',
+									{ href: 'https://www.instagram.com/anniebae/', target: '_blank' },
+									_react2.default.createElement('img', { className: 'images', src: _icon_ig2.default })
+								)
+							),
+							_react2.default.createElement(
+								'li',
+								null,
+								_react2.default.createElement(
+									'a',
+									{ href: 'https://twitter.com/bae_annie', target: '_blank' },
+									_react2.default.createElement('img', { className: 'images', src: _icon_tw2.default })
+								)
+							)
 						)
 					),
 					_react2.default.createElement(_Map2.default, { center: location, markers: markers })
@@ -13075,7 +13128,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, ".contactWrapper .fixed-left {\n  background: #520303; \n}\n\n.email {\n    padding: 30% 0 15% 0;\n    text-align: center;\n}\n\n.email a {\n\tpadding: 2% 10%;\n\tborder: 3px solid #520303;\n\tcolor: #520303;\n\ttext-decoration: none;\n}\n\n.email a:hover {\n\tbackground: #520303;\n\tborder: 3px solid #fff;\n\tcolor: #fff;\n}\n\n.contact-content {\n\theight: 300px;\n\twidth: 58%;\n\t// background-color: #ccc;\n    padding-left: 300px;\n    margin: 0 auto;\n    height: 230px;\n}\n\n@media screen and (max-width: 640px) {\n\t.contact-content {\n\t\twidth: 90%;\n\t    padding-left: initial;\n\t}\n}", ""]);
+exports.push([module.i, ".contactWrapper .fixed-left {\n  background: #520303; \n}\n\n.email {\n    padding: 30% 0 3% 0;\n    text-align: center;\n}\n\n.email a {\n\tpadding: 2% 10%;\n\tborder: 3px solid #520303;\n\tcolor: #520303;\n\ttext-decoration: none;\n}\n\n.email a:hover {\n\tbackground: #520303;\n\tborder: 3px solid #fff;\n\tcolor: #fff;\n}\n\n.social {\n\tmargin-bottom: 100px;\n}\n\n.social ul {\n\ttext-align: center;\n\tpadding: 0;\n\tlist-style-type: none;\n}\n\n.social ul li {\n\tdisplay: inline-block;\n\tmargin: 0 5px;\n}\n\n.social ul li img {\n\twidth: 20px;\n}\n\n.social ul li img:hover {\n\topacity: 0.5;\n}\n\n.contact-content {\n\theight: 300px;\n\twidth: 58%;\n\t// background-color: #ccc;\n    padding-left: 300px;\n    margin: 0 auto;\n    height: 230px;\n}\n\n@media screen and (max-width: 640px) {\n\t.contact-content {\n\t\twidth: 90%;\n\t    padding-left: initial;\n\t}\n}", ""]);
 
 // exports
 
@@ -32373,6 +32426,24 @@ exports.default = Map;
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "3d5047bc1aad0146f394d82b840047c8.jpg";
+
+/***/ }),
+/* 336 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "a0a99419183bf618dbe9e7cce6666628.png";
+
+/***/ }),
+/* 337 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "0566c013cd0fbac3fa624181c72a4f84.png";
+
+/***/ }),
+/* 338 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f4ccd92744bd5e75daad6d2d3607b76a.png";
 
 /***/ })
 /******/ ]);
