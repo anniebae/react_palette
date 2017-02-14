@@ -1,3 +1,31 @@
 .workWrapper .fixed-left {
   background: #e7baa0; 
 }
+.work-content {
+	margin-left: 300px;
+    margin-top: 150px;
+}
+
+.work-content .project-wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.work-content .project-wrapper 
+.project-section .project-name 
+img.github-icon {
+	vertical-align: text-bottom;
+	margin-right: 10px;
+}
+
+
+.work-content .project-wrapper 
+.project-section img.project {
+	width: 500px;
+	border: 1px solid #e7baa0;
+}
+
+.work-content .project-wrapper 
+.project-section img.project:hover {
+	opacity: 0.5;
+}

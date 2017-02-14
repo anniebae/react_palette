@@ -13008,6 +13008,22 @@ var _styles = __webpack_require__(254);
 
 var _styles2 = _interopRequireDefault(_styles);
 
+var _icon_gh = __webpack_require__(340);
+
+var _icon_gh2 = _interopRequireDefault(_icon_gh);
+
+var _portfolio = __webpack_require__(339);
+
+var _portfolio2 = _interopRequireDefault(_portfolio);
+
+var _travelography = __webpack_require__(341);
+
+var _travelography2 = _interopRequireDefault(_travelography);
+
+var _whereto = __webpack_require__(342);
+
+var _whereto2 = _interopRequireDefault(_whereto);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -13038,6 +13054,69 @@ var Work = function (_Component) {
 						'p',
 						null,
 						'w o r k'
+					)
+				),
+				_react2.default.createElement(
+					'div',
+					{ className: 'work-content' },
+					_react2.default.createElement(
+						'div',
+						{ className: 'project-wrapper' },
+						_react2.default.createElement(
+							'div',
+							{ className: 'project-section' },
+							_react2.default.createElement(
+								'p',
+								{ className: 'project-name' },
+								_react2.default.createElement(
+									'a',
+									{ href: 'https://github.com/anniebae/anniebae.github.io', target: '_blank' },
+									_react2.default.createElement('img', { src: _icon_gh2.default, className: 'github-icon', alt: '' }),
+									'This.'
+								)
+							),
+							_react2.default.createElement('img', { src: _portfolio2.default, className: 'project', alt: '' }),
+							_react2.default.createElement(
+								'p',
+								null,
+								'Framework: React.js'
+							)
+						),
+						_react2.default.createElement(
+							'div',
+							{ className: 'project-section' },
+							_react2.default.createElement(
+								'p',
+								{ className: 'project-name' },
+								_react2.default.createElement(
+									'a',
+									{ href: 'https://github.com/anniebae/travelography', target: '_blank' },
+									_react2.default.createElement('img', { src: _icon_gh2.default, className: 'github-icon', alt: '' }),
+									'Travelography.'
+								)
+							),
+							_react2.default.createElement('img', { src: _travelography2.default, className: 'project', alt: '' }),
+							_react2.default.createElement(
+								'p',
+								null,
+								'Framework: Backbone.js'
+							)
+						),
+						_react2.default.createElement(
+							'div',
+							{ className: 'project-section' },
+							_react2.default.createElement(
+								'p',
+								{ className: 'project-name' },
+								_react2.default.createElement(
+									'a',
+									{ href: 'https://github.com/anniebae/WhereTO', target: '_blank' },
+									_react2.default.createElement('img', { src: _icon_gh2.default, className: 'github-icon', alt: '' }),
+									'WhereTO.'
+								)
+							),
+							_react2.default.createElement('img', { src: _whereto2.default, className: 'project', alt: '' })
+						)
 					)
 				)
 			);
@@ -13114,7 +13193,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, "html, body {\n  margin: 0;\n  font-family: Helvetica, Arial;\n  font-weight: 100; }\n  html .appWrapper .icon, body .appWrapper .icon {\n    z-index: 1;\n    text-align: right;\n    top: 0;\n    left: 0;\n    right: 0;\n    position: absolute; }\n    html .appWrapper .icon .images, body .appWrapper .icon .images {\n      border-radius: 50px;\n      width: 80px;\n      margin: 1.5%;\n      border: 2px solid #ff0066; }\n  html .home-page, body .home-page {\n    padding: 10% 0; }\n    html .home-page .title, body .home-page .title {\n      text-align: center;\n      padding-top: 3%; }\n    html .home-page .content-wrapper, body .home-page .content-wrapper {\n      font-weight: 100;\n      letter-spacing: 1.5px;\n      text-align: center;\n      padding: 3% 0; }\n      @media screen and (max-width: 640px) {\n        html .home-page .content-wrapper, body .home-page .content-wrapper {\n          overflow: hidden; } }\n      html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n        display: inline-block;\n        width: 68px;\n        color: #fff;\n        height: 100%;\n        text-align: left;\n        margin: 0 0.5%; }\n        @media screen and (max-width: 640px) {\n          html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n            display: block;\n            width: 100%; } }\n        html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n          font-family: Helvetica, Arial;\n          padding: 0 5px;\n          writing-mode: tb-rl;\n          text-orientation: upright;\n          letter-spacing: 8px;\n          margin: 9px 0; }\n          @media screen and (max-width: 640px) {\n            html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n              text-orientation: initial;\n              writing-mode: horizontal-tb;\n              text-align: left; } }\n      html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {\n        background: #d5c6b0;\n        border: 5px solid #d5c6b0; }\n        html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {\n          background: #fff;\n          border: 5px solid #d5c6b0;\n          color: #000; }\n      html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {\n        background: #e7baa0;\n        border: 5px solid #e7baa0; }\n        html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {\n          background: #fff;\n          border: 5px solid #e7baa0;\n          color: #000; }\n      html .home-page .content-wrapper .tab-runs, body .home-page .content-wrapper .tab-runs {\n        background: #96443a;\n        border: 5px solid #96443a; }\n        html .home-page .content-wrapper .tab-runs:hover, body .home-page .content-wrapper .tab-runs:hover {\n          background: #fff;\n          border: 5px solid #96443a;\n          color: #000; }\n      html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {\n        background: #520303;\n        border: 5px solid #520303; }\n        html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {\n          background: #fff;\n          border: 5px solid #520303;\n          color: #000; }\n  html .fixed-left, body .fixed-left {\n    background: #520303;\n    position: absolute;\n    top: 0;\n    height: 100%;\n    width: 300px; }\n    html .fixed-left p, body .fixed-left p {\n      position: absolute;\n      bottom: 0;\n      left: 0;\n      right: 0;\n      text-align: center;\n      color: #fff;\n      font-size: -webkit-xxx-large; }\n\n@media screen and (max-width: 640px) {\n  html .appWrapper .icon .images, body .appWrapper .icon .images {\n    width: 50px; }\n  html .home-page .content-wrapper, body .home-page .content-wrapper {\n    padding-top: 50px; }\n    html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n      height: 100px;\n      margin-bottom: 5px; }\n  html .fixed-left, body .fixed-left {\n    height: 120px;\n    width: 100%;\n    bottom: 0;\n    top: initial; }\n    html .fixed-left p, body .fixed-left p {\n      font-size: xx-large; } }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
+exports.push([module.i, "html, body {\n  margin: 0;\n  font-family: Helvetica, Arial;\n  font-weight: 100; }\n  html .appWrapper .icon, body .appWrapper .icon {\n    z-index: 1;\n    text-align: right;\n    top: 0;\n    left: 0;\n    right: 0;\n    position: absolute; }\n    html .appWrapper .icon .images, body .appWrapper .icon .images {\n      border-radius: 50px;\n      width: 80px;\n      margin: 1.5%;\n      border: 2px solid #ff0066; }\n  html .home-page, body .home-page {\n    padding: 10% 0; }\n    html .home-page .title, body .home-page .title {\n      text-align: center;\n      padding-top: 3%; }\n    html .home-page .content-wrapper, body .home-page .content-wrapper {\n      font-weight: 100;\n      letter-spacing: 1.5px;\n      text-align: center;\n      padding: 3% 0; }\n      @media screen and (max-width: 640px) {\n        html .home-page .content-wrapper, body .home-page .content-wrapper {\n          overflow: hidden; } }\n      html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n        display: inline-block;\n        width: 68px;\n        color: #fff;\n        height: 100%;\n        text-align: left;\n        margin: 0 0.5%; }\n        @media screen and (max-width: 640px) {\n          html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n            display: block;\n            width: 100%; } }\n        html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n          font-family: Helvetica, Arial;\n          padding: 0 5px;\n          writing-mode: tb-rl;\n          text-orientation: upright;\n          letter-spacing: 8px;\n          margin: 9px 0; }\n          @media screen and (max-width: 640px) {\n            html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n              text-orientation: initial;\n              writing-mode: horizontal-tb;\n              text-align: left; } }\n      html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {\n        background: #d5c6b0;\n        border: 5px solid #d5c6b0; }\n        html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {\n          background: #fff;\n          border: 5px solid #d5c6b0;\n          color: #000; }\n      html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {\n        background: #e7baa0;\n        border: 5px solid #e7baa0; }\n        html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {\n          background: #fff;\n          border: 5px solid #e7baa0;\n          color: #000; }\n      html .home-page .content-wrapper .tab-runs, body .home-page .content-wrapper .tab-runs {\n        background: #96443a;\n        border: 5px solid #96443a; }\n        html .home-page .content-wrapper .tab-runs:hover, body .home-page .content-wrapper .tab-runs:hover {\n          background: #fff;\n          border: 5px solid #96443a;\n          color: #000; }\n      html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {\n        background: #520303;\n        border: 5px solid #520303; }\n        html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {\n          background: #fff;\n          border: 5px solid #520303;\n          color: #000; }\n  html .fixed-left, body .fixed-left {\n    background: #520303;\n    position: fixed;\n    top: 0;\n    height: 100%;\n    width: 300px; }\n    html .fixed-left p, body .fixed-left p {\n      position: absolute;\n      bottom: 0;\n      left: 0;\n      right: 0;\n      text-align: center;\n      color: #fff;\n      font-size: -webkit-xxx-large; }\n\n@media screen and (max-width: 640px) {\n  html .appWrapper .icon .images, body .appWrapper .icon .images {\n    width: 50px; }\n  html .home-page .content-wrapper, body .home-page .content-wrapper {\n    padding-top: 50px; }\n    html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n      height: 100px;\n      margin-bottom: 5px; }\n  html .fixed-left, body .fixed-left {\n    height: 120px;\n    width: 100%;\n    bottom: 0;\n    top: initial; }\n    html .fixed-left p, body .fixed-left p {\n      font-size: xx-large; } }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
 
 // exports
 
@@ -13156,7 +13235,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, ".workWrapper .fixed-left {\n  background: #e7baa0; \n}", ""]);
+exports.push([module.i, ".workWrapper .fixed-left {\n  background: #e7baa0; \n}\n.work-content {\n\tmargin-left: 300px;\n    margin-top: 150px;\n}\n\n.work-content .project-wrapper {\n\twidth: 90%;\n\tmargin: 0 auto;\n}\n\n.work-content .project-wrapper \n.project-section .project-name \nimg.github-icon {\n\tvertical-align: text-bottom;\n\tmargin-right: 10px;\n}\n\n\n.work-content .project-wrapper \n.project-section img.project {\n\twidth: 500px;\n\tborder: 1px solid #e7baa0;\n}\n\n.work-content .project-wrapper \n.project-section img.project:hover {\n\topacity: 0.5;\n}", ""]);
 
 // exports
 
@@ -32444,6 +32523,30 @@ module.exports = __webpack_require__.p + "0566c013cd0fbac3fa624181c72a4f84.png";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "f4ccd92744bd5e75daad6d2d3607b76a.png";
+
+/***/ }),
+/* 339 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fce037a18470da5e166823b5f11d63b8.png";
+
+/***/ }),
+/* 340 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "37a0aba468fdae58dd71c60ad69c9f6f.png";
+
+/***/ }),
+/* 341 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "095d1e6b64c836dfe578f3a482b1eb27.png";
+
+/***/ }),
+/* 342 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "36c023dec407c71d626086ea2fccff49.png";
 
 /***/ })
 /******/ ]);
