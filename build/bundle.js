@@ -13088,7 +13088,7 @@ var Work = function (_Component) {
 									'a',
 									{ href: 'http://evault.com/', target: '_blank' },
 									_react2.default.createElement('img', { src: _icon_gh2.default, className: 'github-icon', alt: '' }),
-									'Evault.'
+									'EVault.'
 								)
 							),
 							_react2.default.createElement('img', { src: _evault2.default, className: 'project', alt: '' }),
