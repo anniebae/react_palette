@@ -29,20 +29,25 @@ class Contact extends Component {
 					<p>c o n t a c t</p>
 				</div>
 				
-				<div className="contact-content">
-					<div className="email">
-						<a href="mailto:bae.annie@gmail.com?subject=Hi Annie!&body=Sent from anniebae.com">say hello</a>
-					</div>
+				<div className="contact-wrapper">
+					<div className="contact-content">
+						<div className="email">
+							<a href="mailto:bae.annie@gmail.com?subject=Hi Annie!&body=Sent from anniebae.com">say hello</a>
+						</div>
 
-					<div className="social">
-						<ul>
-							<li><a href="https://www.linkedin.com/in/anniebae/" target="_blank"><img className="images" src={imgLI} /></a></li>
-							<li><a href="https://www.instagram.com/anniebae/" target="_blank"><img className="images" src={imgIG} /></a></li>
-							<li><a href="https://twitter.com/bae_annie" target="_blank"><img className="images" src={imgTW} /></a></li>
-						</ul>
+						<div className="social">
+							<ul>
+								<li><a href="https://www.linkedin.com/in/anniebae/" target="_blank"><img className="images" src={imgLI} /></a></li>
+								<li><a href="https://www.instagram.com/anniebae/" target="_blank"><img className="images" src={imgIG} /></a></li>
+								<li><a href="https://twitter.com/bae_annie" target="_blank"><img className="images" src={imgTW} /></a></li>
+							</ul>
+						</div>
+
+						<div className="map-wrapper">
+							<Map center={location} markers={markers} />
+						</div>
+						
 					</div>
-					<Map center={location} markers={markers} />
-					
 				</div>
 
 			</div>

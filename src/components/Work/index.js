@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import css from './styles.css'
 
 import imgGH from '../../img/icon_gh.png'
+
+import workEvault from '../../img/evault.png'
+
 import projPortfolio from '../../img/portfolio.png'
 import projTravelography from '../../img/travelography.png'
 import projWhereto from '../../img/whereto.png'
@@ -18,6 +21,14 @@ class Work extends Component {
 				<div className="work-content">
 
 					<div className="project-wrapper">
+						<div className="project-section">
+							<p className="project-name">
+								<a href="http://evault.com/" target="_blank"><img src={imgGH} className="github-icon" alt="" />Evault.</a>
+							</p>
+							<img src={workEvault} className="project" alt=""/>
+							<p className="framework">Episerver CMS @ Wire Stone</p>
+						</div>
+
 						<div className="project-section">
 							<p className="project-name">
 								<a href="https://github.com/anniebae/anniebae.github.io" target="_blank"><img src={imgGH} className="github-icon" alt="" />This.</a>
@@ -39,6 +50,7 @@ class Work extends Component {
 								<a href="https://github.com/anniebae/WhereTO" target="_blank"><img src={imgGH} className="github-icon" alt="" />WhereTO.</a>
 							</p>
 							<img src={projWhereto} className="project" alt=""/>
+							<p className="framework">Collaborated with <a href="https://evturn.com/" target="_blank">evturn</a>.</p>
 						</div>
 
 						<div className="project-section">

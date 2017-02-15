@@ -3,12 +3,12 @@
 }
 
 .email {
-    padding: 30% 0 3% 0;
+    // padding: 30% 0 3% 0;
     text-align: center;
 }
 
 .email a {
-	padding: 2% 10%;
+    padding: 12px 60px;
 	border: 3px solid #520303;
 	color: #520303;
 	text-decoration: none;
@@ -21,7 +21,8 @@
 }
 
 .social {
-	margin-bottom: 100px;
+	margin-top: 45px;
+	margin-bottom: 90px;
 }
 
 .social ul {
@@ -43,18 +44,41 @@
 	opacity: 0.5;
 }
 
+.contact-wrapper {
+	padding-left: 300px;
+}
+
 .contact-content {
-	height: 300px;
-	width: 58%;
-	// background-color: #ccc;
-    padding-left: 300px;
+	width: 90%;
     margin: 0 auto;
-    height: 230px;
+    padding: 200px 0;
+}
+
+.map-wrapper {
+	height: 230px;
 }
 
 @media screen and (max-width: 640px) {
+	.contact-wrapper {
+		padding-left: initial;
+	}
+
 	.contact-content {
 		width: 90%;
-	    padding-left: initial;
+		position: absolute;
+		left: 0;
+		right: 0;
+		padding: 168px 0;
 	}
 }
+
+@media screen and (max-width: 490px) {
+	.social {
+	    margin-top: 40px;
+	    margin-bottom: 50px;
+	}
+	.map-wrapper {
+		height: 280px;
+	}
+}
+

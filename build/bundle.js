@@ -12828,52 +12828,60 @@ var Contact = function (_Component) {
 				),
 				_react2.default.createElement(
 					'div',
-					{ className: 'contact-content' },
+					{ className: 'contact-wrapper' },
 					_react2.default.createElement(
 						'div',
-						{ className: 'email' },
+						{ className: 'contact-content' },
 						_react2.default.createElement(
-							'a',
-							{ href: 'mailto:bae.annie@gmail.com?subject=Hi Annie!&body=Sent from anniebae.com' },
-							'say hello'
-						)
-					),
-					_react2.default.createElement(
-						'div',
-						{ className: 'social' },
+							'div',
+							{ className: 'email' },
+							_react2.default.createElement(
+								'a',
+								{ href: 'mailto:bae.annie@gmail.com?subject=Hi Annie!&body=Sent from anniebae.com' },
+								'say hello'
+							)
+						),
 						_react2.default.createElement(
-							'ul',
-							null,
+							'div',
+							{ className: 'social' },
 							_react2.default.createElement(
-								'li',
+								'ul',
 								null,
 								_react2.default.createElement(
-									'a',
-									{ href: 'https://www.linkedin.com/in/anniebae/', target: '_blank' },
-									_react2.default.createElement('img', { className: 'images', src: _icon_in2.default })
-								)
-							),
-							_react2.default.createElement(
-								'li',
-								null,
+									'li',
+									null,
+									_react2.default.createElement(
+										'a',
+										{ href: 'https://www.linkedin.com/in/anniebae/', target: '_blank' },
+										_react2.default.createElement('img', { className: 'images', src: _icon_in2.default })
+									)
+								),
 								_react2.default.createElement(
-									'a',
-									{ href: 'https://www.instagram.com/anniebae/', target: '_blank' },
-									_react2.default.createElement('img', { className: 'images', src: _icon_ig2.default })
-								)
-							),
-							_react2.default.createElement(
-								'li',
-								null,
+									'li',
+									null,
+									_react2.default.createElement(
+										'a',
+										{ href: 'https://www.instagram.com/anniebae/', target: '_blank' },
+										_react2.default.createElement('img', { className: 'images', src: _icon_ig2.default })
+									)
+								),
 								_react2.default.createElement(
-									'a',
-									{ href: 'https://twitter.com/bae_annie', target: '_blank' },
-									_react2.default.createElement('img', { className: 'images', src: _icon_tw2.default })
+									'li',
+									null,
+									_react2.default.createElement(
+										'a',
+										{ href: 'https://twitter.com/bae_annie', target: '_blank' },
+										_react2.default.createElement('img', { className: 'images', src: _icon_tw2.default })
+									)
 								)
 							)
+						),
+						_react2.default.createElement(
+							'div',
+							{ className: 'map-wrapper' },
+							_react2.default.createElement(_Map2.default, { center: location, markers: markers })
 						)
-					),
-					_react2.default.createElement(_Map2.default, { center: location, markers: markers })
+					)
 				)
 			);
 		}
@@ -13012,6 +13020,10 @@ var _icon_gh = __webpack_require__(340);
 
 var _icon_gh2 = _interopRequireDefault(_icon_gh);
 
+var _evault = __webpack_require__(344);
+
+var _evault2 = _interopRequireDefault(_evault);
+
 var _portfolio = __webpack_require__(339);
 
 var _portfolio2 = _interopRequireDefault(_portfolio);
@@ -13074,6 +13086,26 @@ var Work = function (_Component) {
 								{ className: 'project-name' },
 								_react2.default.createElement(
 									'a',
+									{ href: 'http://evault.com/', target: '_blank' },
+									_react2.default.createElement('img', { src: _icon_gh2.default, className: 'github-icon', alt: '' }),
+									'Evault.'
+								)
+							),
+							_react2.default.createElement('img', { src: _evault2.default, className: 'project', alt: '' }),
+							_react2.default.createElement(
+								'p',
+								{ className: 'framework' },
+								'Episerver CMS @ Wire Stone'
+							)
+						),
+						_react2.default.createElement(
+							'div',
+							{ className: 'project-section' },
+							_react2.default.createElement(
+								'p',
+								{ className: 'project-name' },
+								_react2.default.createElement(
+									'a',
 									{ href: 'https://github.com/anniebae/anniebae.github.io', target: '_blank' },
 									_react2.default.createElement('img', { src: _icon_gh2.default, className: 'github-icon', alt: '' }),
 									'This.'
@@ -13119,7 +13151,18 @@ var Work = function (_Component) {
 									'WhereTO.'
 								)
 							),
-							_react2.default.createElement('img', { src: _whereto2.default, className: 'project', alt: '' })
+							_react2.default.createElement('img', { src: _whereto2.default, className: 'project', alt: '' }),
+							_react2.default.createElement(
+								'p',
+								{ className: 'framework' },
+								'Collaborated with ',
+								_react2.default.createElement(
+									'a',
+									{ href: 'https://evturn.com/', target: '_blank' },
+									'evturn'
+								),
+								'.'
+							)
 						),
 						_react2.default.createElement(
 							'div',
@@ -13217,7 +13260,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, "html, body {\n  margin: 0;\n  font-family: Helvetica, Arial;\n  font-weight: 100; }\n  html .appWrapper .icon, body .appWrapper .icon {\n    z-index: 1;\n    text-align: right;\n    top: 0;\n    left: 0;\n    right: 0;\n    position: absolute; }\n    html .appWrapper .icon .images, body .appWrapper .icon .images {\n      border-radius: 50px;\n      width: 80px;\n      margin: 1.5%;\n      border: 2px solid #ff0066; }\n  html .home-page, body .home-page {\n    padding: 10% 0; }\n    html .home-page .title, body .home-page .title {\n      text-align: center;\n      padding-top: 3%; }\n    html .home-page .content-wrapper, body .home-page .content-wrapper {\n      font-weight: 100;\n      letter-spacing: 1.5px;\n      text-align: center;\n      padding: 3% 0; }\n      @media screen and (max-width: 640px) {\n        html .home-page .content-wrapper, body .home-page .content-wrapper {\n          overflow: hidden; } }\n      html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n        display: inline-block;\n        width: 68px;\n        color: #fff;\n        height: 100%;\n        text-align: left;\n        margin: 0 0.5%; }\n        @media screen and (max-width: 640px) {\n          html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n            display: block;\n            width: 100%; } }\n        html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n          font-family: Helvetica, Arial;\n          padding: 0 5px;\n          writing-mode: tb-rl;\n          text-orientation: upright;\n          letter-spacing: 8px;\n          margin: 9px 0; }\n          @media screen and (max-width: 640px) {\n            html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n              text-orientation: initial;\n              writing-mode: horizontal-tb;\n              text-align: left; } }\n      html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {\n        background: #d5c6b0;\n        border: 5px solid #d5c6b0; }\n        html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {\n          background: #fff;\n          border: 5px solid #d5c6b0;\n          color: #000; }\n      html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {\n        background: #e7baa0;\n        border: 5px solid #e7baa0; }\n        html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {\n          background: #fff;\n          border: 5px solid #e7baa0;\n          color: #000; }\n      html .home-page .content-wrapper .tab-runs, body .home-page .content-wrapper .tab-runs {\n        background: #96443a;\n        border: 5px solid #96443a; }\n        html .home-page .content-wrapper .tab-runs:hover, body .home-page .content-wrapper .tab-runs:hover {\n          background: #fff;\n          border: 5px solid #96443a;\n          color: #000; }\n      html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {\n        background: #520303;\n        border: 5px solid #520303; }\n        html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {\n          background: #fff;\n          border: 5px solid #520303;\n          color: #000; }\n  html .fixed-left, body .fixed-left {\n    background: #520303;\n    position: fixed;\n    top: 0;\n    height: 100%;\n    width: 300px; }\n    html .fixed-left p, body .fixed-left p {\n      position: absolute;\n      bottom: 0;\n      left: 0;\n      right: 0;\n      text-align: center;\n      color: #fff;\n      font-size: -webkit-xxx-large; }\n\n@media screen and (max-width: 640px) {\n  html .appWrapper .icon .images, body .appWrapper .icon .images {\n    width: 50px; }\n  html .home-page .content-wrapper, body .home-page .content-wrapper {\n    padding-top: 50px; }\n    html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n      width: 95%;\n      margin: 0 auto;\n      height: 100px;\n      margin-bottom: 5px; }\n  html .fixed-left, body .fixed-left {\n    height: 120px;\n    width: 100%;\n    bottom: 0;\n    top: initial; }\n    html .fixed-left p, body .fixed-left p {\n      font-size: xx-large; } }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
+exports.push([module.i, "html, body {\n  margin: 0;\n  font-family: Helvetica, Arial;\n  font-weight: 100; }\n  html .appWrapper .icon, body .appWrapper .icon {\n    z-index: 1;\n    text-align: right;\n    top: 0;\n    left: 0;\n    right: 0;\n    position: absolute; }\n    html .appWrapper .icon .images, body .appWrapper .icon .images {\n      border-radius: 50px;\n      width: 80px;\n      margin: 1.5%;\n      border: 2px solid #ff0066; }\n  html .home-page, body .home-page {\n    padding: 150px 0; }\n    html .home-page .title, body .home-page .title {\n      text-align: center;\n      padding-top: 3%; }\n    html .home-page .content-wrapper, body .home-page .content-wrapper {\n      font-weight: 100;\n      letter-spacing: 1.5px;\n      text-align: center;\n      padding: 3% 0; }\n      @media screen and (max-width: 640px) {\n        html .home-page .content-wrapper, body .home-page .content-wrapper {\n          overflow: hidden; } }\n      html .home-page .content-wrapper a, body .home-page .content-wrapper a {\n        text-decoration: none; }\n      html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n        display: inline-block;\n        width: 68px;\n        color: #fff;\n        height: 100%;\n        text-align: left;\n        margin: 0 0.5%; }\n        @media screen and (max-width: 640px) {\n          html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n            display: block;\n            width: 100%; } }\n        html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n          font-family: Helvetica, Arial;\n          padding: 0 5px;\n          writing-mode: tb-rl;\n          text-orientation: upright;\n          letter-spacing: 8px;\n          margin: 9px 0; }\n          @media screen and (max-width: 640px) {\n            html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {\n              text-orientation: initial;\n              writing-mode: horizontal-tb;\n              text-align: left; } }\n      html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {\n        background: #d5c6b0;\n        border: 5px solid #d5c6b0; }\n        html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {\n          background: #fff;\n          border: 5px solid #d5c6b0;\n          color: #000; }\n      html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {\n        background: #e7baa0;\n        border: 5px solid #e7baa0; }\n        html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {\n          background: #fff;\n          border: 5px solid #e7baa0;\n          color: #000; }\n      html .home-page .content-wrapper .tab-runs, body .home-page .content-wrapper .tab-runs {\n        background: #96443a;\n        border: 5px solid #96443a; }\n        html .home-page .content-wrapper .tab-runs:hover, body .home-page .content-wrapper .tab-runs:hover {\n          background: #fff;\n          border: 5px solid #96443a;\n          color: #000; }\n      html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {\n        background: #520303;\n        border: 5px solid #520303; }\n        html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {\n          background: #fff;\n          border: 5px solid #520303;\n          color: #000; }\n  html .fixed-left, body .fixed-left {\n    background: #520303;\n    position: fixed;\n    top: 0;\n    height: 100%;\n    width: 300px;\n    z-index: 1; }\n    html .fixed-left p, body .fixed-left p {\n      position: absolute;\n      bottom: 0;\n      left: 0;\n      right: 0;\n      text-align: center;\n      color: #fff;\n      font-size: -webkit-xxx-large; }\n\n@media screen and (max-width: 640px) {\n  html .appWrapper .icon .images, body .appWrapper .icon .images {\n    width: 50px;\n    margin: 3%; }\n  html .home-page, body .home-page {\n    padding: 100px 0; }\n    html .home-page .content-wrapper, body .home-page .content-wrapper {\n      padding-top: 50px; }\n      html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {\n        width: 95%;\n        margin: 0 auto;\n        height: 100px;\n        margin-bottom: 5px; }\n  html .fixed-left, body .fixed-left {\n    height: 120px;\n    width: 100%;\n    bottom: 0;\n    top: initial; }\n    html .fixed-left p, body .fixed-left p {\n      font-size: xx-large; } }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
 
 // exports
 
@@ -13231,7 +13274,7 @@ exports = module.exports = __webpack_require__(30)();
 
 
 // module
-exports.push([module.i, ".contactWrapper .fixed-left {\n  background: #520303; \n}\n\n.email {\n    padding: 30% 0 3% 0;\n    text-align: center;\n}\n\n.email a {\n\tpadding: 2% 10%;\n\tborder: 3px solid #520303;\n\tcolor: #520303;\n\ttext-decoration: none;\n}\n\n.email a:hover {\n\tbackground: #520303;\n\tborder: 3px solid #fff;\n\tcolor: #fff;\n}\n\n.social {\n\tmargin-bottom: 100px;\n}\n\n.social ul {\n\ttext-align: center;\n\tpadding: 0;\n\tlist-style-type: none;\n}\n\n.social ul li {\n\tdisplay: inline-block;\n\tmargin: 0 5px;\n}\n\n.social ul li img {\n\twidth: 20px;\n}\n\n.social ul li img:hover {\n\topacity: 0.5;\n}\n\n.contact-content {\n\theight: 300px;\n\twidth: 58%;\n\t// background-color: #ccc;\n    padding-left: 300px;\n    margin: 0 auto;\n    height: 230px;\n}\n\n@media screen and (max-width: 640px) {\n\t.contact-content {\n\t\twidth: 90%;\n\t    padding-left: initial;\n\t}\n}", ""]);
+exports.push([module.i, ".contactWrapper .fixed-left {\n  background: #520303; \n}\n\n.email {\n    // padding: 30% 0 3% 0;\n    text-align: center;\n}\n\n.email a {\n    padding: 12px 60px;\n\tborder: 3px solid #520303;\n\tcolor: #520303;\n\ttext-decoration: none;\n}\n\n.email a:hover {\n\tbackground: #520303;\n\tborder: 3px solid #fff;\n\tcolor: #fff;\n}\n\n.social {\n\tmargin-top: 45px;\n\tmargin-bottom: 90px;\n}\n\n.social ul {\n\ttext-align: center;\n\tpadding: 0;\n\tlist-style-type: none;\n}\n\n.social ul li {\n\tdisplay: inline-block;\n\tmargin: 0 5px;\n}\n\n.social ul li img {\n\twidth: 20px;\n}\n\n.social ul li img:hover {\n\topacity: 0.5;\n}\n\n.contact-wrapper {\n\tpadding-left: 300px;\n}\n\n.contact-content {\n\twidth: 90%;\n    margin: 0 auto;\n    padding: 200px 0;\n}\n\n.map-wrapper {\n\theight: 230px;\n}\n\n@media screen and (max-width: 640px) {\n\t.contact-wrapper {\n\t\tpadding-left: initial;\n\t}\n\n\t.contact-content {\n\t\twidth: 90%;\n\t\tposition: absolute;\n\t\tleft: 0;\n\t\tright: 0;\n\t\tpadding: 168px 0;\n\t}\n}\n\n@media screen and (max-width: 490px) {\n\t.social {\n\t    margin-top: 40px;\n\t    margin-bottom: 50px;\n\t}\n\t.map-wrapper {\n\t\theight: 280px;\n\t}\n}\n\n", ""]);
 
 // exports
 
@@ -32577,6 +32620,12 @@ module.exports = __webpack_require__.p + "36c023dec407c71d626086ea2fccff49.png";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "d524d521c520d21ddcb24d300e167ded.png";
+
+/***/ }),
+/* 344 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "93a23cd54dcac6281ecea624c8d40667.png";
 
 /***/ })
 /******/ ]);
